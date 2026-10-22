@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>See It Work — Pacifica Sweep</title>
+<meta name="description" content="An example walkthrough of Pacifica Sweep's review-first workflow with synthetic data: you choose what it reviews, it recommends, you approve every action.">
+<meta property="og:title" content="See It Work — Pacifica Sweep">
+<meta property="og:description" content="A labeled example of the Pacifica Sweep review workflow. Synthetic data — nothing here touches real files.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jkerrigan1988-design.github.io/site/demo">
+<meta property="og:image" content="https://jkerrigan1988-design.github.io/site/assets/logo.png">
+<meta property="og:image:alt" content="Pacifica Sweep logo">
+<link rel="canonical" href="https://jkerrigan1988-design.github.io/site/demo">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="/site/assets/icon-64.png">
+<link rel="apple-touch-icon" href="/site/assets/icon-180.png">
+<link rel="stylesheet" href="/site/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/site" aria-label="Pacifica Sweep home">
+      <img src="/site/assets/icon-64.png" alt="" width="44" height="44">
+      <span class="brand-name">Pacifica Sweep</span>
+    </a>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" data-site-nav id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/site">Home</a></li>
+        <li><a href="/site/how-it-works">How It Works</a></li>
+        <li><a href="/site/features">Features</a></li>
+        <li><a href="/site/trust-privacy">Trust &amp; Privacy</a></li>
+        <li><a href="/site/pricing">Pricing</a></li>
+        <li><a href="/site/contact" class="nav-cta">Early-access status</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Example walkthrough</p>
+      <h1>See it work, before it touches anything real.</h1>
+      <p class="lede">This page narrates the Pacifica Sweep review workflow using <strong>synthetic example data</strong>. Nothing here connects to your files, and none of the example actions are real.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="example-notice" role="note" aria-label="Synthetic example notice">
+        <p><strong>Example — synthetic data.</strong> The folder, files, and recommendations below are invented for illustration. The real product follows the same rule throughout: <strong>it recommends, you decide.</strong></p>
+      </div>
+
+      <h2>How the example flows</h2>
+      <div class="faq">
+        <details open>
+          <summary><span class="step-num">1</span> You choose what it sees</summary>
+          <p><strong>Example:</strong> you point Pacifica Sweep at a folder called <em>Photos</em>. Nothing is opened, read, or listed until you make that choice — connecting a source is always your explicit decision, and you can disconnect it anytime.</p>
+        </details>
+        <details>
+          <summary><span class="step-num">2</span> It inventories and recommends</summary>
+          <p><strong>Example findings</strong> from the synthetic folder. Duplicate detection compares exact file contents, so only byte-identical files are grouped — nothing is guessed:</p>
+          <ul class="finding-list">
+            <li><strong>beach-IMG_2041.jpg</strong> and <strong>beach-IMG_2041-copy.jpg</strong> — identical contents. Recommendation: archive one copy. <em>You pick which.</em></li>
+            <li><strong>old-installer.dmg</strong> — listed for your review with only a low-confidence keep suggestion. <em>Your call.</em></li>
+            <li><strong>Taxes-2024.pdf</strong> — you marked this Keep earlier, so it is protected: any future suggestion for it stays pinned to Keep, and only your explicit action can change it. <em>Protected stays protected.</em></li>
+          </ul>
+        </details>
+        <details>
+          <summary><span class="step-num">3</span> You review — keep, archive, or tidy</summary>
+          <p><strong>Example:</strong> in your review queue, each suggestion waits for you. You keep the sharper beach photo, archive the duplicate, and leave the installer alone. Marking something <strong>Keep</strong> protects it from being suggested again. Nothing expires and nothing is auto-approved while you think it over.</p>
+        </details>
+        <details>
+          <summary><span class="step-num">4</span> You approve — and only then</summary>
+          <p><strong>Example:</strong> you approve archiving one duplicate. Only that approved action runs — whether it runs now or on a schedule you set. Pacifica Sweep never deletes, moves, or reorganizes anything without your explicit approval, and nothing runs in the background on your device.</p>
+        </details>
+      </div>
+
+      <div class="btn-row" style="margin-top:2rem">
+        <a class="btn btn-primary" href="/site/how-it-works">Read how it works</a>
+        <a class="btn btn-ghost" href="/site/contact">Early-access status</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="/site/assets/icon-64.png" alt="" width="40" height="40">
+          <strong>Pacifica Sweep</strong>
+        </div>
+        <p>You decide what stays. Pacifica Sweep keeps things in order.</p>
+      </div>
+      <div>
+        <h3>Product</h3>
+        <ul>
+          <li><a href="/site/how-it-works">How It Works</a></li>
+          <li><a href="/site/features">Features</a></li>
+          <li><a href="/site/demo" aria-current="page">See It Work</a></li>
+          <li><a href="/site/pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="/site/trust-privacy">Trust &amp; Privacy</a></li>
+          <li><a href="/site/contact">Early Access</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-note">© <span data-year>2026</span> Pacifica Sweep. Pricing and availability are not finalized. This site describes the product honestly — see Trust &amp; Privacy for limitations.</p>
+  </div>
+</footer>
+<script src="/site/site.js" defer></script>
+</body>
+</html>
