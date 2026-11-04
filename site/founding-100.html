@@ -7,13 +7,22 @@
 <meta name="description" content="Free Pacifica Sweep Founding 100 enrollment. No payment required.">
 <title>Founding 100 — Pacifica Sweep</title>
 <link rel="canonical" href="https://kbl-api-production.up.railway.app/site/founding-100">
-<meta http-equiv="refresh" content="0;url=https://kbl-api-production.up.railway.app/site/founding-100">
+<script>
+(() => {
+  const target = 'https://kbl-api-production.up.railway.app/site/founding-100';
+  const ref = new URLSearchParams(window.location.search).get('ref');
+  const safeRef = typeof ref === 'string' && /^F100-[A-HJ-NP-Z2-9]{8}$/.test(ref.toUpperCase())
+    ? '?ref=' + encodeURIComponent(ref.toUpperCase()) : '';
+  window.location.replace(target + safeRef);
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=https://kbl-api-production.up.railway.app/site/founding-100"></noscript>
 </head>
 <body>
 <main>
 <h1>Join the Pacifica Sweep Founding 100</h1>
 <p>Free early-access enrollment is open. No credit card or payment required. App invitations are sent gradually.</p>
-<p><a href="https://kbl-api-production.up.railway.app/site/founding-100">Open the secure Founding 100 enrollment form</a></p>
+<p><a href="https://kbl-api-production.up.railway.app/site/founding-100">Open the verified Founding 100 enrollment form</a></p>
 </main>
 </body>
 </html>
